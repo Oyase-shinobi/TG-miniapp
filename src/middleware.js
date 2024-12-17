@@ -8,7 +8,7 @@ export async function middleware(request) {
 
     if (!session) {
         const navigate = useNavigate();
-        navigate('/');
+        navigate('/');                                     
         return;
     }
 
